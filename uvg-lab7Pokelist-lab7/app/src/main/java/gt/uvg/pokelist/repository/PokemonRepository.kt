@@ -7,16 +7,16 @@ class PokemonRepository {
     // Obtain pokemon list from https://pokeapi.co/
     fun getPokemonList(): List<Pokemon> {
         return listOf(
-            Pokemon(1, "bulbasaur"),
-            Pokemon(2, "ivysaur"),
-            Pokemon(3, "venusaur"),
-            Pokemon(4, "charmander"),
-            Pokemon(5, "charmeleon"),
-            Pokemon(6, "charizard"),
-            Pokemon(7, "squirtle"),
-            Pokemon(8 , "wartortle"),
-            Pokemon(9, "blastoise"),
-            Pokemon(10,"caterpie")
+            Pokemon(1, "Bulbasaur"),
+            Pokemon(2, "Ivysaur"),
+            Pokemon(3, "Venusaur"),
+            Pokemon(4, "Charmander"),
+            Pokemon(5, "Charmeleon"),
+            Pokemon(6, "Charizard"),
+            Pokemon(7, "Squirtle"),
+            Pokemon(8 , "Wartortle"),
+            Pokemon(9, "Blastoise"),
+            Pokemon(10,"Caterpie")
         )
     }
 }
